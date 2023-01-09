@@ -10,9 +10,9 @@ const findNumInArray = (num) => {
     if (element === num) {
       const endTime = performance.now();
       console.log(
-        `your number in array it takes ${endTime - startTime} ms to find him`
+        `your number is in array , it takes ${endTime - startTime} ms to find him`
       );
-    }
+    }else{console.log(`we didnt couldn't find your number`);}
   }
 };
 
